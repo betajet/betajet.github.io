@@ -1,4 +1,13 @@
-betajet.github.io
-=================
+# Stormy's Site
 
-best testing site yes
+YO!
+
+THIS IS A BETA OF STORMYJET.COM
+
+
+THE END!
+
+## [http://stormyjet.com](http://stormyjet.com)
+
+## [http://betajet.github.io](http://betajet.github.io)
+
