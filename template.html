@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <link href="core/css/bootstrap.min.css" rel="stylesheet">
+<script src="core/js/candy.js"></script>
 <script src="core/js/google.js"></script>
 <script src="core/js/bootstrap.min.js"></script>
+<link href="core/css/octicons.css" rel="stylesheet">
+<link href="core/css/sprockets-octicons.scss" rel="stylesheet">
+<script src="core/js/jquery.js"></script>
+<script src="/core/js/bootstrap.min.js"></script>
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -61,7 +66,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="topsecret.html">Stormy's Website
+                <a class="navbar-brand" href="index.html">Stormy's Website
                 </a>
 
 
@@ -98,7 +103,7 @@
                     <li>
                         <a href="http://stormyjet.com/sNet">sNet</a>
                     </li>-->
-                    <li class="bg-danger"><a href="htda/">HTDA</a>
+                    <li class="bg-danger"><a href="open/">openNews</a>
                     </li>
                     <li class="bg-info"><a href="meteor/index.html">Meteor Game</a>
                     </li>
@@ -115,13 +120,22 @@
             <br>If you're smart, the CSS didn't load, so this happened.</p>
 
     </center>
-
+    <br>
+    <br>
+    <br>
     <!-- Jumbotron -->
     <div class="container">
         <div>
             <div class="jumbotron">
                 <center>
-                    <p style="font-size: 750%;word-wrap:break-word;">Big Text</p>
+                    <div class="hidden-xs hidden-sm">
+                        <!--Hidden on Mobile-->
+                        <p style="font-size:750%;word-wrap:break-word;">desktop text bigger</p>
+                    </div>
+                    <div class="hidden-md hidden-lg">
+                        <!-- Hidden on Non-Mobile-->
+                        <h1><strong>non desktop smaller</strong></h1>
+                    </div>
                     <!--Candies are shown here, if they don't load, the text is shown-->
                     <div id="candy" style="font-size: 200%;"></div>
 
@@ -166,6 +180,7 @@
             <center>
                 <p>
                     Made by StormyJet. Uses code from Bootstrap.
+                    <br><span class="octicon octicon-radio-tower"></span> with <span class="octicon octicon-heart"></span> by <span class="octicon octicon-logo-github"></span>
                 </p>
 
             </center>
